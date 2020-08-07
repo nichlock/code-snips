@@ -5,7 +5,7 @@ Files compiled with `cc -c main.c`, then analyzed with `objdump -d main.o`.
 
 Notation:
 
-Commented out means removed from object code:
+For clarity, commented out code was left in while being compiled, but has been manually removed from the shown object code:
 
 | C/C++ Code | Object Code     |
 | :------------- | :------------- |
