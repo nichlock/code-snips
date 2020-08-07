@@ -24,12 +24,13 @@ const char COLOR_WHITE[]    = "\e[1;38m";
 const char COLOR_NONE[]     = "\e[0m";
 ```
 
-If these aren't working in some language, `\033` can go in place of `\e`.
+If these aren't working in some language, `\033` can go in place of `\e`. In windows shells or for files which should be colored, use the 'ESC' control character, which you can get by typing ALT+027 using a numberpad. You can also copy this: ``.
 
 This works directly in console echos too, with:
 
 ```shell
 RED='\e[0;31m'
 NC='\e[0m'
-echo -e "I ${RED}love${NC} Stack Overflow"
+echo -e "This text is ${RED}red${NC}."
 ```
+
