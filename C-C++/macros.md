@@ -12,7 +12,7 @@ Printer macros:
 ```
 Macro call & (uncolored) text printed: 
 ```c++ 
-wprintf("Stop called after program ended, sim time not available.");
+warn_printf("Stop called after program ended, sim time not available.");
 ```
 > Internal Warning: Stop called after program ended, sim time not available. [from timer_stop (in vpi_files/VpiMain.cpp:108)]
 ---
