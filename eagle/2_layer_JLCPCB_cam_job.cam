@@ -77,8 +77,9 @@
                     "layers": [
                         29
                     ],
+                    "milling": false,
                     "name": "Soldermask Top",
-                    "polarity": "negative",
+                    "polarity": "positive",
                     "type": "gerber_layer"
                 },
                 {
@@ -93,7 +94,7 @@
                         30
                     ],
                     "name": "Soldermask Bottom",
-                    "polarity": "negative",
+                    "polarity": "positive",
                     "type": "gerber_layer"
                 },
                 {
@@ -206,7 +207,7 @@
             ]
         }
     ],
-    "timestamp": "2020-02-23T14:43:36",
+    "timestamp": "2020-08-23T18:22:17",
     "type": "EAGLE CAM job",
     "units": "metric",
     "version": "9.2.0"
