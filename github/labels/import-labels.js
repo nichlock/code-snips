@@ -1,8 +1,8 @@
 /* HOW TO USE THIS:
  * Go on the labels page (eg https://github.com/CuUwrRobotics/repo-name/labels)
  * Paste this script in your inspect-element console
- * Press Enter and spam Space until it's done! Refresh and do it again, since the page needs to update for some of these.
- * This will automatically remove the default labels and add the new ones.
+ * Press Enter and spam Space until it's done!
+ * This will automatically remove the default labels and add the new ones. Existing labels will be updated.
  *
  * To change the labels this uses, either manually change the labels listed OR use the file export-labels.js to get 
  * existing labels as an array with all data, then paste the new ones into the to_add array.
