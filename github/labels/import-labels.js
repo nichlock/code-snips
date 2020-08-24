@@ -23,9 +23,6 @@ var to_remove  = [
 { "name": "question" },
 { "name": "wontfix" },
 ]
-to_remove.forEach(function(label) {
-  removeLabel(label)
-})
 
 var to_add = [
   {
@@ -119,21 +116,31 @@ var to_add = [
     "color": "000000"
   }
 ];
-to_add.forEach(function(label) {
-  addLabel(label)
+
+to_remove.forEach(function(label) {
+  removeLabel(label)
 })
-// One time doesen't always work! This is a brute force fix. This issue can be fixed by simply changing the program to not delete labels that will be created again. I don't have the time though.
+
 to_add.forEach(function(label) {
   addLabel(label)
 })
 
 function removeLabel(label) {
+  var flag = true;
+  to_add.forEach(function(add_label) {
+    if(add_label.name === label.name) {
+     flag = false
+    }
+  })
+   if(flag) {
   [].slice.call(document.querySelectorAll(".js-labels-list-item"))
   .forEach(function(element) {
     if (element.querySelector('.js-label-link').textContent.trim() === label.name) {
       element.querySelector('.js-delete-label').querySelector(".btn-link").click()
     }
   })
+  }
+  return flag
 }
 
 function updateLabel (label) {
