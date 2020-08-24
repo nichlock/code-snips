@@ -8,6 +8,8 @@
  * existing labels as an array with all data, then paste the new ones into the to_add array.
  *
  * By default, the labels that GitHub auto-populates are removed.
+ *
+ * Based on code within https://gist.github.com/Isaddo/7efebcb673a0957b9c6f07cd14826ea4
  */
 
 var to_remove  = [
