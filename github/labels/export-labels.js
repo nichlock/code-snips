@@ -1,6 +1,10 @@
-/* To be used with import-labels.js.
+/* HOW TO USE THIS:
+ * Go on the labels page (eg https://github.com/CuUwrRobotics/repo-name/labels)
+ * Paste this script in your inspect-element console
+ * Press Enter
+ *
+ * To be used with import-labels.js.
  * Exports labels, descriptions, and colors to a JS array so it can be copied to another repository.
- * To use, run this script in console while on labels page.
  * From https://gist.github.com/MoOx/93c2853fee760f42d97f
  */
 
