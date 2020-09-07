@@ -1,2 +1,2 @@
 # code-snips
-Code which I use a lot, with personal preferences that Googling can't fulfill.
+Script, templates, and other code I reference a lot.
