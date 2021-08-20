@@ -15,7 +15,7 @@ A list of parts I've used and liked, or of names of obscure standards.
 
 ## MilSpec Wire
 
-[M22759 Wire](https://www.awcwire.com/mil-spec-wire-and-cable/m22759) is fairly cheap and extremely high quality. The file in this repository lists the types of wire and their properties.
+[M22759 Wire](https://www.awcwire.com/mil-spec-wire-and-cable/m22759) is fairly cheap and extremely high quality. The file in this repository lists the types of wire and their properties. Types /16 and /18 have been the best in the past.
 
 # EE Tools
 
