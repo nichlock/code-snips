@@ -1,3 +1,5 @@
+[ACWire link](https://www.awcwire.com/mil-spec-wire-and-cable/m22759)
+
 | Mil Spec # |    Cond   |          Insulation          | Voltage |   Temp  | AWG Range | Type |
 |:----------:|:---------:|:----------------------------:|:-------:|:-------:|:---------:|:----:|
 |  M22759/1  |    SPC    |         PTFE / Glass         |   600   |  200°C  |  22 - 4/0 |  EA  |
