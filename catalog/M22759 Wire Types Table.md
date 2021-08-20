@@ -14,9 +14,9 @@
 |  M22759/10 |    NPC    |         Extruded PTFE        |   1000  |  260°C  |   28 - 8  |  LH  |
 |  M22759/11 |    SPC    |         Extruded PTFE        |   600   |  200°C  |   28 - 8  |  RC  |
 |  M22759/12 |    NPC    |         Extruded PTFE        |   600   |  260°C  |   28 - 8  |  RE  |
-|  M22759/16 |    TPC    |         Extruded ETFE        |   600   |  150°C  |  24 - 2/0 |  TE  |
+|  **M22759/16** |    TPC    |         Extruded ETFE        |   600   |  150°C  |  24 - 2/0 |  TE  |
 |  M22759/17 | SPC Alloy |         Extruded ETFE        |   600   |  150°C  |   26-20   |  TF  |
-|  M22759/18 |    TPC    |         Extruded ETFE        |   600   |  150°C  |  26 - 10  |  TG  |
+|  **M22759/18** |    TPC    |         Extruded ETFE        |   600   |  150°C  |  26 - 10  |  TG  |
 |  M22759/19 | SPC Alloy |         Extruded ETFE        |   600   |  150°C  |  26 - 20  |  TH  |
 |  M22759/21 | NPC Alloy |         Extruded PTFE        |   1000  |  260°C  |  28 - 20  |  TL  |
 |  M22759/22 | SPC Alloy |         Extruded PTFE        |   600   |  200°C  |  28 - 20  |  TM  |
